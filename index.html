@@ -6,35 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudeepta Sarmah</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <main>
         <nav id="navigation">
-            <a id="nav1" href="">Home</a>
-            <a id="nav2" href="">About</a>
-            <a id="nav3" href="">Projects</a>
-            <a id="nav4" href="">Contact</a>
+            <a class="navLinks" id="nav1" href="">Home</a>
+            <a class="navLinks" id="nav2" href="">About</a>
+            <a class="navLinks" id="nav3" href="">Projects</a>
+            <a class="navLinks" id="nav4" href="">Contact</a>
         </nav>
         <section id="hero">
-            <h1 id="heroHeading">You have arrived at your destination.</h1>
-            <p id="heroParagraph">Hi, I'm an aspiring software developer with a passion for coding and
-                problem-solving. Self-taught and
-                driven, I love exploring new technologies and building innovative solutions. My journey is fueled by
-                curiosity and persistence, constantly learning from challenges and creating projects that make a
-                difference. Let’s build something amazing together!</p>
-            <img id="heroImage" src="img1.png" alt="">
+            <div class="text">
+                <h1 id="heroHeading">You have arrived at your destination.</h1>
+                <p id="heroParagraph">Hi, I'm an aspiring software developer with a passion for coding and
+                    problem-solving. Self-taught and
+                    driven, I love exploring new technologies and building innovative solutions. My journey is fueled by
+                    curiosity and persistence, constantly learning from challenges and creating projects that make a
+                    difference. Let’s build something amazing together!</p>
+            </div>
+            <div class="heroImg">
+                <img id="heroImage" src="img1.png" alt="">
+            </div>
         </section>
-        <section class="projects">
-            <div id="project1">
-                <img class="projectImages" id="project1Thumbnail" src="img2.png" alt="">
+        <section class="card-container">
+            <div class="card">
+                <img class="projectImages" id="project1Thumbnail" src="empower.avif" alt="">
                 <h4 class="projectTitles" id="project1Title">EmpowerSync<a class="projectLinks" id="project1Link"
                         href="">&#x2197</a></h4>
                 <span class="projectContents" id="project1Content">A cloud-based platform designed to streamline team
                     collaboration and automate
                     workflows for maximum efficiency.</span>
             </div>
-            <div id="project2">
+            <div class="card">
                 <img class="projectImages" id="project2Thumbnail" src="img2.png" alt="">
                 <h4 class="projectTitles" id="project2Title">GreenTrail<a class="projectLinks" id="project2Link"
                         href="">&#x2197</a></h4>
@@ -43,7 +50,7 @@
                     personalized
                     eco-friendly tips.</span>
             </div>
-            <div id="project3">
+            <div class="card">
                 <img class="projectImages" id="project3Thumbnail" src="img2.png" alt="">
                 <h4 class="projectTitles" id="project3Title">CodeCraft<a class="projectLinks" id="project3Link"
                         href="">&#x2197</a></h4>
@@ -52,7 +59,7 @@
                     challenges and real-world
                     projects.</span>
             </div>
-            <div id="project4">
+            <div class="card">
                 <img class="projectImages" id="project4Thumbnail" src="img2.png" alt="">
                 <h4 class="projectTitles" id="project4Title">SafeNest<a class="projectLinks" id="project4Link"
                         href="">&#x2197</a></h4>
@@ -64,12 +71,12 @@
         </section>
         <section id="about">
             <h2 id="aboutHeading">About Me</h2>
-            <hr>
             <p id="aboutContent">I’m a passionate Junior Web Developer with a strong foundation in front-end and
                 back-end technologies.
                 Self-motivated and detail-oriented, I specialize in creating responsive, user-friendly websites and web
-                applications. My skills include HTML, CSS, JavaScript, and frameworks like React and Node.js. I thrive
-                in collaborative environments, continuously learning and improving my craft. With a focus on clean code
+                applications. My skills include <strong>HTML, CSS, JavaScript</strong>, and frameworks like React and
+                Node.js. I thrive in collaborative environments, continuously learning and improving my craft. With a
+                focus on clean code
                 and intuitive design, I aim to deliver projects that not only meet but exceed client expectations. When
                 I’m not coding, I enjoy exploring new tech trends and working on personal projects to expand my skill
                 set. Let’s build something great together!</p>

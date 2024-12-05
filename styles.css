@@ -1,0 +1,84 @@
+*{
+    font-family: "Parkinsans"; 
+}
+
+#navigation{
+    display: flex;
+    background: linear-gradient(30deg, #2d2d2d, #E5E5E5);
+    align-items: center;
+    justify-content: end;
+    padding: 15px 50px;
+}
+
+.navLinks{
+    padding-left: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text{
+    text-align: end;
+    max-width: 45%;
+}
+
+#heroImage{
+    width: 400px;
+    height: 400px;
+
+}
+
+#heroHeading{
+text-decoration: underline;
+}
+
+#hero{
+    display: flex;
+    padding: 50px 150px 25px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroImg{
+    background-color: #14213D;
+    border-radius: 50%;
+    width: 400px;
+    
+}
+
+/*.card-container{
+
+}
+
+.card{
+
+}
+
+.projectImages{
+
+}
+
+.projectTitles{
+
+}
+
+.projectContents{
+
+}*/
+
+#about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#aboutContent{
+    background-color: #d5c6e0;
+    padding: 25px 55px;
+    border-radius: 5px 25px;
+}
