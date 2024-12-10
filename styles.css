@@ -1,6 +1,18 @@
 *{
     font-family: "Parkinsans"; 
     margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    transition: 0.4s;
 }
 
 #navigation{
@@ -51,9 +63,7 @@ cursor: pointer;
 }
 
 .heroImg{
-    border-radius: 50%;
-    width: 400px;
-    
+    width: 400px;    
 }
 
 .card-container{
@@ -177,3 +187,18 @@ margin: 100px 25px 60px;
     text-align: center;
     background-color: #84a98c;
 }
+
+/* media queries */
+
+/* @media (max-width: 1024){
+    #heroImage{
+        width: 150px;
+        height: 150px;
+    }
+    .heroImg{
+        width: 150px;
+    }
+    .text{
+        font-size: 8px;
+    }
+} */
